@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.header, .hero, footer {
+    background-color: #1F2937;
+
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 30px 138px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.hero {
+    display: flex;
+    padding: 30px 138px 75px 138px;
+    gap: 20px;
+
+}
+
+.hero-statement {
+    width:50%;
+}
+
+.hero-statement > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.place-holder {
+    width: 50%;
+    height: 250px;
+    background-color: #E5E7EB;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-statement > button {
+    padding: 8px 30px;
+    background-color: #3882F6;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+}
+
+.info > h2 {
+    padding: 40px;
+}
+
+.info-list {
+    padding: 0px 150px 40px 150px;
+}
+
+.info-list > li > figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-list > li > figure > img {
+
+    width: 150px;
+    height: 150px;
+    border: solid 3px #3882F6;
+    border-radius: 10px;
+}
+
+.info-list > li > figure > figcaption {
+    text-align: center;
+    color: #000000;
+}
+
+blockquote {
+    background-color: #E5E7EB;
+    padding: 80px 175px;
+    display: flex;
+    flex-direction: column;
+    font-size: 38px;
+}
+
+blockquote > cite {
+    margin-left: auto;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.call {
+    background-color: #3882F6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+    gap: 100px;
+    border-radius: 10px;
+    margin: 60px;
+}
+
+
+.call > button {
+    padding: 5px 20px;
+    color: #fff;
+    background-color: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    color: #ffffff;
+}
