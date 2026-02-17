@@ -48,6 +48,9 @@ main {
     flex-direction: column;
 }
 
+main > .info, main > .hero, main > .quote {
+    width: 100%;
+}
 
 .hero {
     display: flex;
